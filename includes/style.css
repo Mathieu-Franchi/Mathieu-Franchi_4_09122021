@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #333!important;
+    color: #575757!important;
 }
 
 .container {
@@ -767,23 +767,25 @@ h4 {
     background-color: #FFFFFF;
 }
 
-
+.bgc-dark-slate-blue {
+    background-color: #364577;
+}
 
 .bgc-atomic-tangerine {
-    background-color:#ff915f;
+    background-color:#F3976C;
 }
 
 .tc-white {
-    color: #ff915f!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #ff915f;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #ff925fbb!important;
+    background: #c27956!important;
     color: #FFFFFF!important;
 }
 
@@ -1045,56 +1047,4 @@ h4 {
     font-size: 20px;
     color:#333333;
     font-style: italic;
-}
-.row
-{
-    color: #FFF;
-}
-.contrast
-{
-    color: #ff915f !important;
-    font-weight: bolder;
-    font-size: 30px;
-}
-.page2bloc
-{
-    
-    background-color: #ff915f;
-   
-}
-.page2bloc::before
-{
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.page2bloc::before
-{
-    background: url(img/texture-paper.png);
-    background-size: 280px 280px;
-    background-color: #ff915f;
-}
-p
-{
-   font-size: 12px;
-}
-.footerp
-{
-    color: #FFF;
-}
-.footer
-{
-    background-color: #ff915f !important;
-}
-.page2 
-{
-    color: #FFF !important;
-}
-.page2white 
-{
-    color: #FFF !important;
 }
